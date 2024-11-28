@@ -2,5 +2,5 @@
   "rules":{
 "@typescript-eslint/no-unused-vars": "off"
   },
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": ["next/core-web-vitals", "next/typescript", "prettier"]
 }
