@@ -1,6 +1,26 @@
 {
   "rules":{
-"@typescript-eslint/no-unused-vars": "off"
+"@typescript-eslint/no-unused-vars": "off",
+"tailwindcss/no-custom-classnames": "off"
   },
-  "extends": ["next/core-web-vitals", "next/typescript", "prettier"]
+  "extends": [
+    "next/core-web-vitals",
+    "next/typescript", 
+    // "plugin:prettier/recommended",
+    "plugin:tailwindcss/recommended",
+    "prettier"],
+    
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": ["tailwindcss"]
 }
+
