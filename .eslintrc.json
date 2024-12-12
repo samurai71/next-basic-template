@@ -7,7 +7,7 @@
     "next/core-web-vitals",
     "next/typescript", 
     // "plugin:prettier/recommended",
-    "plugin:tailwindcss/recommended",
+    // "plugin:tailwindcss/recommended",
     "prettier"],
     
   "env": {
@@ -20,7 +20,7 @@
     "ecmaFeatures": {
       "jsx": true
     }
-  },
-  "plugins": ["tailwindcss"]
+  }
+  // "plugins": ["tailwindcss"]
 }
 
