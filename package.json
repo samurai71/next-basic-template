@@ -56,6 +56,6 @@
   },
   "lint-staged": {
     "*.js": "lint:fix",
-    "*.src": "prettier --write"
+    "*.src": "format"
   }
 }
