@@ -58,7 +58,7 @@
     "husky": "^8.0.0"
   },
   "lint-staged": {
-    "*.js": "pnpm run lint:fix",
+    "*/**/*.{js,ts,jsx,tsx}": "pnpm run lint:fix",
     "*.src": "pnpm run format"
   }
 }
